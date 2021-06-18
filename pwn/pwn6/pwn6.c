@@ -11,7 +11,7 @@ void vuln() {
     char buffer[64];
     printf("Submit your payload to recv bunty!\n");
     gets(&buffer);
-    puts("Drum roll....\n");
+    puts("Drum roll....");
 }
 
 void setup() {

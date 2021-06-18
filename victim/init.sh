@@ -1,10 +1,7 @@
 #!/bin/bash
 
 # add flags
-echo "flag{}" > /home/pwn1/flag
-echo "flag{}" > /home/pwn2/flag
-# echo "flag{}" > /home/pwn3/flag
-# echo "flag{}" > /home/pwn4/flag
+echo "flag{ezrop}" > /home/pwn6/flag
 
 for i in {6..6}; do
   chmod 440 /home/pwn$i/flag && chown root:pwn$i /home/pwn$i/flag 
