@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <signal.h>
 
-// gcc -m32 -g -w -o pwn6 -fno-stack-protector pwn6.c
+// gcc -m32 -g -w -o pwn6 -fno-stack-protector -no-pie pwn6.c
 // /usr/bin/socat -dd TCP4-LISTEN:9006,fork,reuseaddr EXEC:/home/pwn6/pwn6,pty,echo=0,raw,iexten=0 &
 // install libc6-i386 to get the 32 bit libraries necessary to run in 32 bit mode
 
